@@ -24,9 +24,7 @@ public class FarmDay extends JavaPlugin {
         setupLuckperms();
 
         Bukkit.getScheduler().scheduleSyncRepeatingTask(this, () -> {
-            Bukkit.getOnlinePlayers().forEach(all -> {
-                ScoreboardManager.setScoreboard(all);
-            });
+            Bukkit.getOnlinePlayers().forEach(ScoreboardManager::setScoreboard);
         }, 20, 20);
 
     }
