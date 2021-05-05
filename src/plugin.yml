@@ -1,0 +1,10 @@
+name: FarmDay
+main: de.centox.farmday.FarmDay
+authors:
+  - SirFrozzy
+  - GreatGodOfFire
+  - Greenman999
+  - rotgruengelb
+version: 1.0
+
+commands:
