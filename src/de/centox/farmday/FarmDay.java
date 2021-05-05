@@ -27,7 +27,7 @@ public class FarmDay extends JavaPlugin {
             Bukkit.getOnlinePlayers().forEach(all -> {
                 ScoreboardManager.setScoreboard(all);
             });
-        }, 0, 20);
+        }, 20, 20);
 
     }
 
